@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8BD264DC2DAB628000690763 /* FakeStoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeStoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BD264EC2DAB628200690763 /* FakeStoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeStoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BD264F62DAB628200690763 /* FakeStoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeStoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD264DC2DAB628000690763 /* todo_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD264EC2DAB628200690763 /* todo_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todo_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD264F62DAB628200690763 /* todo_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todo_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		8BD264DD2DAB628000690763 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BD264DC2DAB628000690763 /* FakeStoreApp.app */,
-				8BD264EC2DAB628200690763 /* FakeStoreAppTests.xctest */,
-				8BD264F62DAB628200690763 /* FakeStoreAppUITests.xctest */,
+				8BD264DC2DAB628000690763 /* todo_demo.app */,
+				8BD264EC2DAB628200690763 /* todo_demoTests.xctest */,
+				8BD264F62DAB628200690763 /* todo_demoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BD264DB2DAB628000690763 /* FakeStoreApp */ = {
+		8BD264DB2DAB628000690763 /* todo_demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BD265002DAB628200690763 /* Build configuration list for PBXNativeTarget "FakeStoreApp" */;
+			buildConfigurationList = 8BD265002DAB628200690763 /* Build configuration list for PBXNativeTarget "todo_demo" */;
 			buildPhases = (
 				8BD264D82DAB628000690763 /* Sources */,
 				8BD264D92DAB628000690763 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				8BD264DE2DAB628000690763 /* todo_demo */,
 			);
-			name = FakeStoreApp;
+			name = todo_demo;
 			packageProductDependencies = (
 			);
 			productName = todo_demo;
-			productReference = 8BD264DC2DAB628000690763 /* FakeStoreApp.app */;
+			productReference = 8BD264DC2DAB628000690763 /* todo_demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8BD264EB2DAB628200690763 /* FakeStoreAppTests */ = {
+		8BD264EB2DAB628200690763 /* todo_demoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BD265032DAB628200690763 /* Build configuration list for PBXNativeTarget "FakeStoreAppTests" */;
+			buildConfigurationList = 8BD265032DAB628200690763 /* Build configuration list for PBXNativeTarget "todo_demoTests" */;
 			buildPhases = (
 				8BD264E82DAB628200690763 /* Sources */,
 				8BD264E92DAB628200690763 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				8BD264EF2DAB628200690763 /* todo_demoTests */,
 			);
-			name = FakeStoreAppTests;
+			name = todo_demoTests;
 			packageProductDependencies = (
 			);
 			productName = todo_demoTests;
-			productReference = 8BD264EC2DAB628200690763 /* FakeStoreAppTests.xctest */;
+			productReference = 8BD264EC2DAB628200690763 /* todo_demoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8BD264F52DAB628200690763 /* FakeStoreAppUITests */ = {
+		8BD264F52DAB628200690763 /* todo_demoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BD265062DAB628200690763 /* Build configuration list for PBXNativeTarget "FakeStoreAppUITests" */;
+			buildConfigurationList = 8BD265062DAB628200690763 /* Build configuration list for PBXNativeTarget "todo_demoUITests" */;
 			buildPhases = (
 				8BD264F22DAB628200690763 /* Sources */,
 				8BD264F32DAB628200690763 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				8BD264F92DAB628200690763 /* todo_demoUITests */,
 			);
-			name = FakeStoreAppUITests;
+			name = todo_demoUITests;
 			packageProductDependencies = (
 			);
 			productName = todo_demoUITests;
-			productReference = 8BD264F62DAB628200690763 /* FakeStoreAppUITests.xctest */;
+			productReference = 8BD264F62DAB628200690763 /* todo_demoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BD264D72DAB628000690763 /* Build configuration list for PBXProject "FakeStoreApp" */;
+			buildConfigurationList = 8BD264D72DAB628000690763 /* Build configuration list for PBXProject "todo_demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BD264DB2DAB628000690763 /* FakeStoreApp */,
-				8BD264EB2DAB628200690763 /* FakeStoreAppTests */,
-				8BD264F52DAB628200690763 /* FakeStoreAppUITests */,
+				8BD264DB2DAB628000690763 /* todo_demo */,
+				8BD264EB2DAB628200690763 /* todo_demoTests */,
+				8BD264F52DAB628200690763 /* todo_demoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		8BD264EE2DAB628200690763 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8BD264DB2DAB628000690763 /* FakeStoreApp */;
+			target = 8BD264DB2DAB628000690763 /* todo_demo */;
 			targetProxy = 8BD264ED2DAB628200690763 /* PBXContainerItemProxy */;
 		};
 		8BD264F82DAB628200690763 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8BD264DB2DAB628000690763 /* FakeStoreApp */;
+			target = 8BD264DB2DAB628000690763 /* todo_demo */;
 			targetProxy = 8BD264F72DAB628200690763 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeStoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FakeStoreApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todo_demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/todo_demo";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeStoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FakeStoreApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todo_demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/todo_demo";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BD264D72DAB628000690763 /* Build configuration list for PBXProject "FakeStoreApp" */ = {
+		8BD264D72DAB628000690763 /* Build configuration list for PBXProject "todo_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BD264FE2DAB628200690763 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BD265002DAB628200690763 /* Build configuration list for PBXNativeTarget "FakeStoreApp" */ = {
+		8BD265002DAB628200690763 /* Build configuration list for PBXNativeTarget "todo_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BD265012DAB628200690763 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BD265032DAB628200690763 /* Build configuration list for PBXNativeTarget "FakeStoreAppTests" */ = {
+		8BD265032DAB628200690763 /* Build configuration list for PBXNativeTarget "todo_demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BD265042DAB628200690763 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BD265062DAB628200690763 /* Build configuration list for PBXNativeTarget "FakeStoreAppUITests" */ = {
+		8BD265062DAB628200690763 /* Build configuration list for PBXNativeTarget "todo_demoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BD265072DAB628200690763 /* Debug */,

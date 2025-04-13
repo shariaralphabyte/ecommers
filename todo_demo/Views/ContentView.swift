@@ -1,24 +1,39 @@
-//
-//  ContentView.swift
-//  todo_demo
-//
-//  Created by MA Kader on 13/04/2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @StateObject var apiService = APIService()
 
-#Preview {
-    ContentView()
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading) {
+                DemoSlideView()
+
+                Text("Trending")
+                    .font(.title2)
+                    .bold()
+                    .padding(.horizontal)
+
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack {
+                        ForEach(apiService.products.prefix(5)) { product in
+                            TrendingCard(product: product)
+                        }
+                    }
+                    .padding(.horizontal)
+                }
+
+                Text("Categories")
+                    .font(.title2)
+                    .bold()
+                    .padding(.horizontal)
+
+                CategoryView(products: apiService.products)
+
+                ProductsGridView(products: apiService.products)
+            }
+        }
+        .onAppear {
+            apiService.fetchProducts()
+        }
+    }
 }
